@@ -1,0 +1,99 @@
+.content-table{
+  grid-area: main;
+  overflow-y: auto;
+    border-collapse: collapse;
+    margin: 15px 10px;
+    font-size: 0.9em;
+    min-width:100px;
+    width: 98%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thread tr {
+}
+
+.content-table th {background-color: #009879;
+    min-width: 70px;
+    height: 40px;
+    color:#ffffff;
+    /*text-align: left ;*/
+    font-weight: bold ;}
+.content-table td{
+    padding: 12px 15px;
+    text-align: center;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+
+}
+.content-table tbody tr:nth-last-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #10977c;
+}
+.content-table tbody tr.active-row{
+    font-weight:  bold;
+    color:#009879
+}
+.btn.btn-flat{
+    border-radius:0;
+    box-shadow:none;
+    border-width:1px;
+    margin-right: 10px;
+}
+.btn-success{
+    background-color:#00a65a;
+    border-color:#008d4c;
+}
+.btn{
+    border-radius:3px;
+    border:1px solid transparent;
+}
+.btn-group-sm>.btn, .btn-sm{
+    padding:5px 10px;
+    font-size:12px;
+    line-height:1.5;
+}
+.btn-success{
+    color:#fff;
+    font-size: 15.5px;
+    margin-right: 10px;
+}
+/*.img{
+    width: 90px;
+    height: 80px;
+}*/
+.btn{
+display: inline-block;
+margin-bottom:0;
+font-weight:400px;
+text-align:center;
+white-space:nowrap;
+vertical-align:middle;
+touch-action:manipulation;
+cursor:pointer;
+user-select:none;
+background-image:none;
+}
+.btn-danger{
+    background-color:#dd4b39;
+    border-color:#d73925;
+    color:#fff;
+    font-size: 15.5px;
+}
+.btn-modify{
+    background-color:#ff9900;
+    border-color:#ffffff;
+    color:#fff;
+    font-size: 15.5px;
+}
+.btn-ban{
+    background-color:#ff5e00d8;
+    border-color:#ffffff;
+    color:#fff;
+    font-size: 15.5px;
+}
